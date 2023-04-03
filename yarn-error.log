@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/local/bin/node /Users/dengxiaojuan/.cache/node/corepack/yarn/1.22.19/bin/yarn.js add hardhat
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/Frameworks/Python.framework/Versions/3.10/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 140.207.236.222:443 - Local (0.0.0.0:54585)
+      at internalConnect (node:net:1059:16)
+      at defaultTriggerAsyncIdScope (node:internal/async_hooks:464:18)
+      at emitLookup (node:net:1316:9)
+      at /Users/dengxiaojuan/.cache/node/corepack/yarn/1.22.19/lib/cli.js:103587:28
+      at /Users/dengxiaojuan/.cache/node/corepack/yarn/1.22.19/lib/cli.js:103496:13
+      at module.exports.RawTask.call (/Users/dengxiaojuan/.cache/node/corepack/yarn/1.22.19/lib/cli.js:79584:19)
+      at flush (/Users/dengxiaojuan/.cache/node/corepack/yarn/1.22.19/lib/cli.js:79666:29)
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
